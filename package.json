@@ -1,0 +1,27 @@
+{
+  "name": "@test/wasm-add",
+  "collaborators": [
+    "duythien <duythien0914@gmail.com>"
+  ],
+  "description": "Code used to demonstrate how to use wasm-pack",
+  "version": "0.1.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgattozzi/wasm-add"
+  },
+  "files": [
+    "wasm_add_bg.wasm",
+    "wasm_add.d.ts"
+  ],
+  "main": "wasm_add.js",
+  "types": "wasm_add.d.ts",
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
